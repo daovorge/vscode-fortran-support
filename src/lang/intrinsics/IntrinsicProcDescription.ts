@@ -8,7 +8,7 @@ export  class IntrinsicProcDescription {
      public description: string){
 
     }
-     
+
     public  isFromIntrinsicModule(): boolean {
         return this.moduleName != null;
     }

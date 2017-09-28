@@ -1,0 +1,9 @@
+
+export enum FortranLineType {
+    BLANK,
+    COMMENT,
+    STATEMENT,
+    COMMENT_DIRECTIVE,
+    INCLUDE_LINE,
+    PREPROCESSOR_DIRECTIVE
+}
